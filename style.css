@@ -1,0 +1,95 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #3e3e80;
+    height: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  z-index: 9999;
+  top: 0;
+  margin: 0em;
+  padding: 0em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+#menu-navigation{
+    width: 60%;
+}
+
+#navigation {
+    display: flex;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: auto;
+    list-style: none;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+.navigation-items{
+    margin: auto auto 0em auto;
+}
+#logo-portfolio{
+    margin: 0.4em 0em 0.4em 1.5em;
+    height: 65px;
+    width: 200px;
+}
+#logo-portfolio:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    cursor: pointer;
+  }
+  .navigation-name{
+    margin: auto 0.5em auto 0.5em;
+  }
+  #navigation a{
+    color: #eb5a77;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  #navigation a:hover {
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    color: #5c5cb6;
+    cursor: pointer;
+  }
+  #navigation  > .active{
+    color: #3e3e80;
+    font-weight: bold;
+  }
+ 
+  #parallax{
+      height: 92vh;
+      background: url(https://i.stack.imgur.com/D3UpA.png);
+      background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+   
+    
+     
+  }
+  #description-effet-invisible{
+      height: 250px;
+      width: 50%;
+      margin: 0 auto;
+      background-color: white;
+    opacity: -2;
+  }
+  #contenue-parcours{
+    height: 500px;
+    width: 100%;
+    background: #76a696;
+  }
+  #description-bienvenue{
+      width: 50%;
+      height: 100px;
+      margin: 0 auto;
+      padding-bottom: 155px;
+      background-color: #fcfcff;
+  }
