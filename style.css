@@ -48,7 +48,7 @@
     margin: auto 0.5em auto 0.5em;
   }
   #navigation a{
-    color: #eb5a77;
+    color:#76a696;
     text-decoration: none;
     font-size: 1em;
   }
@@ -65,14 +65,11 @@
  
   #parallax{
       height: 92vh;
-      background: url(https://i.stack.imgur.com/D3UpA.png);
+      background: url(https://be-freelancer.cherry-pick.io/wp-content/uploads/2020/09/james-harrison-vpOeXr5wmR4-unsplash-scaled.jpg);
       background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-   
-    
-     
   }
   #description-effet-invisible{
       height: 250px;
@@ -81,15 +78,46 @@
       background-color: white;
     opacity: -2;
   }
-  #contenue-parcours{
-    height: 500px;
-    width: 100%;
-    background: #76a696;
-  }
   #description-bienvenue{
       width: 50%;
       height: 100px;
       margin: 0 auto;
       padding-bottom: 155px;
       background-color: #fcfcff;
+  }
+  .style-description-bienvenue{
+    text-align: center;
+  }
+  #titre-description-bienvenue{
+      text-align: center;
+  }
+  #description-bienvenue-contact{
+      display: flex;
+      justify-content: center;
+  }
+  #bouton-description-bienvenue{
+      text-decoration: none;
+      color: #fcfcff;
+      background-color: #222;
+      border: none;
+      display: block;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+      font-weight: 700;
+      padding: 17px 35px;
+      font-size: 1.2;
+      margin: 1em auto;
+  }
+  #parcours{
+    height: 500px;
+    width: 100%;
+    background: white;
+  }
+  #titre-parcours{
+      text-align: center;
+  }
+  #description-parcours{
+      display: flex;
+      flex-direction: row;
   }
