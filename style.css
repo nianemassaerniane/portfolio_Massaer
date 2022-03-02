@@ -65,7 +65,7 @@
  
   #parallax{
       height: 92vh;
-      background: url(https://be-freelancer.cherry-pick.io/wp-content/uploads/2020/09/james-harrison-vpOeXr5wmR4-unsplash-scaled.jpg);
+      background: url(https://suiterep.com/wp-content/uploads/2021/07/Display-Message-in-View-Mode-using-Server-Side-Scripts.jpeg);
       background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -119,5 +119,58 @@
   }
   #description-parcours{
       display: flex;
-      flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto auto auto;
   }
+  #image-description-parcours{
+  text-align: center;
+
+  color: #ffffff;
+  width: 275px;
+}
+
+#image-description-parcours img{
+  border: 3.5px solid rgba(64, 64, 64, 0.2);
+  border-radius: 50%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#texte-description-parcours
+{
+  font-family: 'ambleregular', sans-serif;
+  background-color: #ffffff;
+  color: #404040;
+  width: 675px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 5px;
+}
+#competence-actuelle{
+    box-shadow: 0 0 10px #bababa;
+     border: 2px solid #76a696 ; 
+    background-color: #fcfcfc;
+    margin-left: 0;
+    padding: 1.5em;
+    width: 35%;
+}
+#mon-cv a{
+text-decoration: none;}
+#cv{
+    color:#76a696 ;
+}
+#voir-les-projets{
+    text-decoration: none;
+    color: #fcfcff;
+    background-color:#76a696;
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+    font-weight: 700;
+    padding: 7px 25px;
+    font-size: 1.2;
+    margin: 1em auto;
+}
