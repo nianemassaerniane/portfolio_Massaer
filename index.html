@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,115 +8,376 @@
     <title> mon first site</title>
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-<header id="header">
-    <nav id="logo-portfolio">
-        <img src="logo.PNG" alt="photo"/>
-    </nav>
-    <nav  id="menu-navigation">
-        <div>
-            <ul id="navigation">
-                <li class="navigation-items">
-                    <a title="bienvenue" href="" ><h2 class="navigation-name" class="active">bienvenue</h2></a>
-                </li>
-                <li  class="navigation-items">
-                    <a title="Parcours" href="" class="active"><h2 class="navigation-name">Parcours</h2></a>
-                </li>
-                <li class="navigation-items">
-                    <a title="Parcours" href="" class="active"><h2 class="navigation-name">projets</h2></a>
-                </li>
-                <li class="navigation-items">
-                    <a title="Parcours" href="" class="active"><h2 class="navigation-name">contact</h2></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</header>
-<main>
-<section id="bienvenue">
-    <div id="parallax">
-        <div id="description-effet-invisible">
-        </div>
-        <div id="description-bienvenue">
-            <h2 id="titre-description-bienvenue">bienvenue</h2>
-            <p class="style-description-bienvenue"> je suis Massaer Niane <strong>Développeur web junior</strong></p>
-            <p class="style-description-bienvenue"><strong>Ma mission</strong> créer un site ou applcation web sur mesure</p>
-            <p class="style-description-bienvenue">pour  savoir comment, consulter <a href="">mon parcours</a>  et  <a href="">mes projets</a></p>
-            <div id="description-bienvenue-contact">
-                <a>
-                    <button  id="bouton-description-bienvenue">
-                        <span>contacter moi!</span>
-                    </button>
-                </a>
+    <header id="header">
+        <nav id="logo-portfolio">
+            <img src="logo.PNG" alt="photo" />
+        </nav>
+        <nav id="menu-navigation">
+            <div>
+                <ul id="navigation">
+                    <li class="navigation-items">
+                        <a title="bienvenue" href="#bienvenue">
+                            <h2 class="navigation-name" class="active">bienvenue</h2>
+                        </a>
+                    </li>
+                    <li class="navigation-items">
+                        <a title="Parcours" href="#parcours" class="active">
+                            <h2 class="navigation-name">Parcours</h2>
+                        </a>
+                    </li>
+                    <li class="navigation-items">
+                        <a title="Parcours" href="#projets" class="active">
+                            <h2 class="navigation-name">projets</h2>
+                        </a>
+                    </li>
+                    <li class="navigation-items">
+                        <a title="Parcours" href="#contact" class="active">
+                            <h2 class="navigation-name">contact</h2>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </div>
-       
-    </div>
-    
-</section>
-<section id="parcours">
-    <h2 id="titre-parcours">Mon Parcours</h2>
-    <div id="description-parcours">
-        <div id="image-description-parcours">
-            <img src="photo_mass.png">
-        </div>
-        <div id="texte-description-parcours">
-            <p>Développeur web junior, spécialisé dans le frontend, je mets mes compétences à votre service pour<br>
-                <a href="">créer un site web qui vous correspond.<br><a>
-                <strong >100% autonome , à l'écoute</strong>
-                , et force de proposition, je suis prêt à m'investir pleinement dans votre <br>
-                projet et à m'adapter à vos besoins.<br>
-                Je vous apporte mon expertise pour :<strong>l'intégration de maquettes</strong> , la création de votre <strong>site vitrine / e-commerce</strong>, ou <br>
-                encore le rafraîchissement et l'<strong>optimisation du référencement SEO</strong> d'un site existant.<br>
-                N'hésitez pas à consulter l'ensemble des projets sur lesquels j'ai travaillé !
-            </p>
-        </div>
-    </div>
-    <div>
-        
-        <div id="competence-actuelle">
-        <h3>developpeur  web junior</h3>
-        <p>
-            Développeuse web fullstack, spécialisée frontend.<br>
+        </nav>
+    </header>
+    <main>
+        <section id="bienvenue">
+            <div id="parallax">
+                <div id="description-effet-invisible">
+                </div>
+                <div id="description-bienvenue">
+                    <h2 class="centrer-du-texte">bienvenue</h2>
+                    <p class="style-description-bienvenue"> je suis Massaer Niane <strong>Développeur web
+                            junior</strong></p>
+                    <p class="style-description-bienvenue"><strong>Ma mission</strong> créer un site ou applcation web
+                        sur mesure</p>
+                    <p class="style-description-bienvenue">pour savoir comment, consulter <a href="">mon parcours</a> et
+                        <a href="#projets">mes projets</a>
+                    </p>
+                    <div id="description-bienvenue-contact">
+                        <a>
+                            <button id="bouton-description-bienvenue">
+                                <span>contacter moi!</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
 
-Compétences développées :<br>
-<ul>
-    <li>
-        Technologies maitrisées coté front :
-    </li>
-    JavaScript, HTML5, CSS3, SASS.<br>
-    <li>
-        Framework front :ReactJS, Bootstrap.
-    </li>
-    <li>
-        Technologies maitrisées coté back :NodeJS.
-    </li>
-    <li>Framework back :ExpressJS.</li>
-   
-    <li>
-        Base de données : MongoDB, mySQL.
-    </li>
-   
-    <li>
-        Logiciel de versioning utilisé : Git et GitHub.
-    </li>
-   <li>
-    CMS : Wordpress.
-   </li>
-  
- 
-</ul>
-<p  id="mon-cv">  Consultez <a id="cv" href="https://nianemassaerniane.github.io/cv_massaer/">mon CV</a></p>
-<button id="voir-les-projets">
-    <p>voir les  projets</p>
-</button>
-    </div>
-        <div></div>
-    </div>
-</section>
-<section id="projets"></section>
+            </div>
 
-<section id="contact"></section>
-</main>
+        </section>
+        <section id="parcours">
+            <h2 class="centrer-du-texte">Mon Parcours</h2>
+            <div id="description-parcours">
+                <div id="image-description-parcours">
+                    <img src="photo_mass.png">
+                </div>
+                <div id="texte-description-parcours">
+                    <p>Développeur web junior, spécialisé dans le frontend, je mets mes compétences à votre service
+                        pour<br>
+                        <a href="">créer un site web qui vous correspond.<br></a>
+                                <strong>100% autonome , à l'écoute</strong>
+                                , et force de proposition, je suis prêt à m'investir pleinement dans votre <br>
+                                projet et à m'adapter à vos besoins.<br>
+                                Je vous apporte mon expertise pour :<strong>l'intégration de maquettes</strong> , la
+                                création de votre <strong>site vitrine / e-commerce</strong>, ou <br>
+                                encore le rafraîchissement et l'<strong>optimisation du référencement SEO</strong> d'un
+                                site existant.<br>
+                                N'hésitez pas à consulter l'ensemble des projets sur lesquels j'ai travaillé !
+                    </p>
+                </div>
+            </div>
+            <div class="espacement-bloc">
+
+                <div class="conteneur">
+                    <h3>developpeur web junior</h3>
+                    <p>
+                        Développeuse web fullstack, spécialisée frontend.<br>
+
+                        Compétences développées :<br>
+                    <ul>
+                        <li>
+                            Technologies maitrisées coté front :
+                        </li>
+                        JavaScript, HTML5, CSS3, SASS.<br>
+                        <li>
+                            Framework front :ReactJS, Bootstrap.
+                        </li>
+                        <li>
+                            Technologies maitrisées coté back :NodeJS.
+                        </li>
+                        <li>Framework back :ExpressJS.</li>
+
+                        <li>
+                            Base de données : MongoDB, mySQL.
+                        </li>
+
+                        <li>
+                            Logiciel de versioning utilisé : Git et GitHub.
+                        </li>
+                        <li>
+                            CMS : Wordpress.
+                        </li>
+
+
+                    </ul>
+                    <p id="mon-cv"> Consultez <a id="cv" href="https://nianemassaerniane.github.io/cv_massaer/">mon
+                            CV</a></p>
+                    <button id="voir-les-projet">
+                        <p>voir les projets</p>
+                    </button>
+                </div>
+                <div class="ligne-verticale"></div>
+                <div class="bloc-vide"></div>
+
+            </div>
+
+            <div class="espacement-bloc">
+                <div class="bloc-vide1"></div>
+                <div class="ligne-verticale2"></div>
+                <div class="conteneur">
+                    <h3>Formation developpeur web | Openclassroom</h3>
+                    <p>
+                        Sept projets réalisés pédagogie par projet .<br>
+
+                        Compétences développées :<br>
+                    <ul>
+                        <li>
+                            Prendre en main sa formation de Developpeur web:
+                            (mettre en place un systeme de veille informationnelle
+                            gestion de projet méthode Agile)
+                        </li>
+                        <li>
+                            Transformer une maquette en site web avec:
+                        </li>
+                        HTML5, CSS3,GitHub.<br>
+                        <li>
+                            Dynamiser une page web avec des animations css :HTML5, CSS3, SASS,GitHub.
+                        </li>
+                        <li>
+                            Optimisation du référencement SEO d'un site web existant
+                            ( HTML5 / CSS3 / JavaScript,github )
+                        </li>
+                        <li>Création d'un site de e-commerce
+                            ( JavaScript,NodeJS ).</li>
+
+                        <li>
+                            Construction d'une API sécurisée pour une application d'avis gastronomiques
+                            ( Node JS, Express JS, Mongo DB ).
+                        </li>
+
+                        <li>
+                            Création d'un réseau social d’entreprise
+                            ( React JS, Node JS / Express JS, mySQL )
+                        </li>
+                    </ul>
+                    <button id="voir-les-projet">
+                        <p><a href="">voir les projets</a></p>
+                    </button>
+                </div>
+
+            </div>
+            <div class="espacement-bloc">
+                <div class="conteneur">
+                    <h3>Formation universitaire </h3>
+                    <p>
+                        Développeuse web fullstack, spécialisée frontend.<br>
+
+                        Compétences développées :<br>
+                    <ul>
+                        <li>
+                            Technologies maitrisées coté front :
+                        </li>
+                        JavaScript, HTML5, CSS3, SASS.<br>
+                        <li>
+                            Framework front :ReactJS, Bootstrap.
+                        </li>
+                        <li>
+                            Technologies maitrisées coté back :NodeJS.
+                        </li>
+                        <li>Framework back :ExpressJS.</li>
+
+                        <li>
+                            Base de données : MongoDB, mySQL.
+                        </li>
+
+                        <li>
+                            Logiciel de versioning utilisé : Git et GitHub.
+                        </li>
+                        <li>
+                            CMS : Wordpress.
+                        </li>
+
+
+                    </ul>
+                    <button id="voir-les-projet">
+                        <p>voir les projets</p>
+                    </button>
+                </div>
+                <div class="ligne-verticale"></div>
+                <div class="bloc-vide2"></div>
+            </div>
+
+            <div class="espacement-bloc">
+                <div class="bloc-vide1"></div>
+                <div class="ligne-verticale2"></div>
+                <div class="conteneur">
+                    <h3>certifications </h3>
+                    <p>
+                        Sept projets réalisés pédagogie par projet .<br>
+
+                        Compétences développées :<br>
+                    <ul>
+                        <li>
+                            Prendre en main sa formation de Developpeur web:
+                            (mettre en place un systeme de veille informationnelle
+                            gestion de projet méthode Agile)
+                        </li>
+                        <li>
+                            Transformer une maquette en site web avec:
+                        </li>
+                        HTML5, CSS3,GitHub.<br>
+                        <li>
+                            Dynamiser une page web avec des animations css :HTML5, CSS3, SASS,GitHub.
+                        </li>
+                        <li>
+                            Optimisation du référencement SEO d'un site web existant
+                            ( HTML5 / CSS3 / JavaScript,github )
+                        </li>
+                        <li>Création d'un site de e-commerce
+                            ( JavaScript,NodeJS ).</li>
+
+                        <li>
+                            Construction d'une API sécurisée pour une application d'avis gastronomiques
+                            ( Node JS, Express JS, Mongo DB ).
+                        </li>
+
+                        <li>
+                            Création d'un réseau social d’entreprise
+                            ( React JS, Node JS / Express JS, mySQL )
+                        </li>
+                    </ul>
+                    <button id="voir-les-projet">
+                        <p><a href="">voir les projets</a></p>
+                    </button>
+                </div>
+            </div>
+            <div class="espacement-bloc">
+                <div class="conteneur">
+                    <h3>Experience professionnelle | Job Etudiant </h3>
+                    <p>
+                        Développeuse web fullstack, spécialisée frontend.<br>
+
+                        Compétences développées :<br>
+                    <ul>
+                        <li>
+                            Technologies maitrisées coté front :
+                        </li>
+                        JavaScript, HTML5, CSS3, SASS.>
+                        <li>
+                            Framework front :ReactJS, Bootstrap.
+                        </li>
+                        <li>
+                            Technologies maitrisées coté back :NodeJS.
+                        </li>
+                        <li>Framework back :ExpressJS.</li>
+
+                        <li>
+                            Base de données : MongoDB, mySQL.
+                        </li>
+
+                        <li>
+                            Logiciel de versioning utilisé : Git et GitHub.
+                        </li>
+                        <li>
+                            CMS : Wordpress.
+                        </li>
+
+
+                    </ul>
+                    <button id="voir-les-projet">
+                        <span>voir les projets</span>
+                    </button>
+                </div>
+                <div class="ligne-verticale"></div>
+                <div class="bloc-vide2"></div>
+            </div>
+        </section>
+
+        <section id="projets">
+            <h2 class="centrer-du-texte">Projets Réalisés</h2>
+            <p class="centrer-du-texte">vous souhaitez que je vous apporte mon expertise dans vos projets ?<br>
+                <strong> <a href="#contact">Écrivez-moi</a> </strong>et nous pourrons en discuter !</p>
+                <div  id="les-projets">
+                    <div  class="conteneur-box">
+                        <img  class="image-proje" src="">
+                        <h2 class="titre-projet"></h2>
+                        <p  class="description projet"></p>
+                        <ul class="technologie-utilise">
+
+                        </ul>
+                        <button class="bouton"> <a href="">voir le projet</a> </button>
+                    </div>
+                    <div  class="conteneur-box">
+                        <img  class="image-proje" src="">
+                        <h2 class="titre-projet"></h2>
+                        <p  class="description projet"></p>
+                        <ul class="technologie-utilise">
+
+                        </ul>
+                        <button class="bouton"> <a href="">voir le projet</a> </button>
+                    </div>
+                    <div  class="conteneur-box">
+                        <img  class="image-proje" src="">
+                        <h2 class="titre-projet"></h2>
+                        <p  class="description projet"></p>
+                        <ul class="technologie-utilise">
+
+                        </ul>
+                        <button class="bouton"> <a href="">voir le projet</a> </button>
+                    </div>
+                    <div  class="conteneur-box">
+                        <img  class="image-proje" src="">
+                        <h2 class="titre-projet"></h2>
+                        <p  class="description projet"></p>
+                        <ul class="technologie-utilise">
+
+                        </ul>
+                        <button class="bouton"> <a href="">voir le projet</a> </button>
+                    </div>
+                    <div  class="conteneur-box">
+                        <img  class="image-proje" src="">
+                        <h2 class="titre-projet"></h2>
+                        <p  class="description projet"></p>
+                        <ul class="technologie-utilise">
+
+                        </ul>
+                        <button class="bouton"> <a href="">voir le projet</a> </button>
+                    </div>
+                    <div  class="conteneur-box">
+                        <img  class="image-proje" src="">
+                        <h2 class="titre-projet"></h2>
+                        <p  class="description projet"></p>
+                        <ul class="technologie-utilise">
+
+                        </ul>
+                        <button class="bouton"> <a href="">voir le projet</a> </button>
+                    </div>
+                    <div  class="conteneur-box">
+                        <img  class="image-proje" src="">
+                        <h2 class="titre-projet"></h2>
+                        <p  class="description projet"></p>
+                        <ul class="technologie-utilise">
+
+                        </ul>
+                        <button class="bouton"> <a href="">voir le projet</a> </button>
+                    </div>
+                </div>
+        </section>
+
+        <section id="contact"></section>
+    </main>
 </body>
+
 </html>
