@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e1e907064b.js" crossorigin="anonymous"></script>
     <title> mon first site</title>
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -12,7 +13,7 @@
 <body>
     <header id="header">
         <nav id="logo-portfolio">
-            <img src="logo.PNG" alt="photo" />
+            <img id="logo" src="logomassaer.png" alt="photo" />
         </nav>
         <nav id="menu-navigation">
             <div>
@@ -56,11 +57,7 @@
                         <a href="#projets">mes projets</a>
                     </p>
                     <div id="description-bienvenue-contact">
-                        <a>
-                            <button id="bouton-description-bienvenue">
-                                <span>contacter moi!</span>
-                            </button>
-                        </a>
+                        <button class="boutons"> <span><a href="">Me contacter!</a></span></button>
                     </div>
                 </div>
 
@@ -124,9 +121,7 @@
                     </ul>
                     <p id="mon-cv"> Consultez <a id="cv" href="https://nianemassaerniane.github.io/cv_massaer/">mon
                             CV</a></p>
-                    <button id="voir-les-projet">
-                        <p>voir les projets</p>
-                    </button>
+                            <button class="boutons"> <span><a href="#projets">voir les projets</a></span></button>
                 </div>
                 <div class="ligne-verticale"></div>
                 <div class="bloc-vide"></div>
@@ -172,8 +167,8 @@
                             ( React JS, Node JS / Express JS, mySQL )
                         </li>
                     </ul>
-                    <button id="voir-les-projet">
-                        <p><a href="">voir les projets</a></p>
+                    <button class="boutons">
+                        <span><a href="#projets">voir les projets</a></span>
                     </button>
                 </div>
 
@@ -211,8 +206,8 @@
 
 
                     </ul>
-                    <button id="voir-les-projet">
-                        <p>voir les projets</p>
+                    <button class="boutons">
+                        <span><a href="#projets">voir les projets</a></span>
                     </button>
                 </div>
                 <div class="ligne-verticale"></div>
@@ -258,8 +253,8 @@
                             ( React JS, Node JS / Express JS, mySQL )
                         </li>
                     </ul>
-                    <button id="voir-les-projet">
-                        <p><a href="">voir les projets</a></p>
+                    <button class="boutons">
+                        <span><a href="#projets">voir les projets</a></span>
                     </button>
                 </div>
             </div>
@@ -296,8 +291,8 @@
 
 
                     </ul>
-                    <button id="voir-les-projet">
-                        <span>voir les projets</span>
+                    <button class="boutons">
+                        <span><a href="#projets">voir les projets</a></span>
                     </button>
                 </div>
                 <div class="ligne-verticale"></div>
@@ -311,67 +306,80 @@
                 <strong> <a href="#contact">Écrivez-moi</a> </strong>et nous pourrons en discuter !</p>
                 <div  id="les-projets">
                     <div  class="conteneur-box">
-                        <img  class="image-proje" src="">
-                        <h2 class="titre-projet"></h2>
-                        <p  class="description projet"></p>
+                        <img  class="image-proje" src="bouki.PNG">
+                        <h2 class="centrer-du-texte">BOUKI</h2>
+                        <p  class="description-projet">Transformation d'une maquette en site web</p>
                         <ul class="technologie-utilise">
-
+                            <li><i class="fab fa-html5"></i></li>
+                            <li><i class="fab fa-css3-alt"></i></li>
                         </ul>
-                        <button class="bouton"> <a href="">voir le projet</a> </button>
+                        <button class="boutons"> <span><a href="">voir le projets</a></span></button>
+                    </div>
+                    <div  class="conteneur-box">
+                        <img  class="image-proje" src="ohmyfood.PNG">
+                        <h2 class="centrer-du-texte">Ohmyfood</h2>
+                        <p  class="description-projet">Dynamisation d'une page web - animations CSS</p>
+                        <ul class="technologie-utilise">
+                            <li><i class="fab fa-html5"></i></li>
+                            <li><i class="fab fa-css3-alt"></i></li>
+                            <i class="fab fa-sass"></i>
+                        </ul>
+                        <button class="boutons"> <span><a href="">voir le projets</a></span></button>
+                    </div>
+                    <div  class="conteneur-box">
+                        <img  class="image-proje" src="chouetteagence.PNG">
+                        <h2 class="centrer-du-texte">La chouette agence</h2>
+                        <p  class="description-projet">Optimisation du référencement SEO d'un site web existant</p>
+                        <ul class="technologie-utilise">
+                            <li><i class="fab fa-html5"></i></li>
+                            <li><i class="fab fa-css3-alt"></i></li>
+                            <i class="fab fa-sass"></i>
+                            <i class="fab fa-js"></i>
+                        </ul>
+                        <button class="boutons"> <span><a href="">voir le projets</a></span></button>
+                    </div>
+                    <div  class="conteneur-box">
+                        <img  class="image-proje" src="./KANAP/KANAP1.PNG">
+                        <h2 class="centrer-du-texte">KANAP</h2>
+                        <p  class="description-projet">Création d'un site de e-commerce
+                            ( JavaScript )</p>
+                        <ul class="technologie-utilise">
+                            <li><i class="fab fa-html5"></i></li>
+                            <li><i class="fab fa-css3-alt"></i></li>
+                            <i class="fab fa-sass"></i>
+                            <i class="fab fa-js"></i>
+                            <i class="fab fa-node"></i>
+                        </ul>
+                        <button class="boutons"> <span><a href="">voir le projets</a></span></button>
+                    </div>
+                    <div  class="conteneur-box">
+                        <img  class="image-proje" src="piquante2.PNG">
+                        <h2 class="centrer-du-texte">PIQUANTE</h2>
+                        <p  class="description-projet">Construction d'une API sécurisée pour une application d'avis gastronomiques
+                            ( Node JS, Express JS, Mongo DB )</p>
+                        <ul class="technologie-utilise">
+                            <i class="fab fa-js"></i>
+                            <i class="fab fa-node"></i>
+                        </ul>
+                        <button class="boutons"> <span><a href="">voir le projets</a></span></button>
                     </div>
                     <div  class="conteneur-box">
                         <img  class="image-proje" src="">
-                        <h2 class="titre-projet"></h2>
-                        <p  class="description projet"></p>
+                        <h2 class="centrer-du-texte"></h2>
+                        <p  class="description-projet"></p>
                         <ul class="technologie-utilise">
 
                         </ul>
-                        <button class="bouton"> <a href="">voir le projet</a> </button>
+                        <button class="boutons"> <span><a href="">voir le projets</a></span></button>
                     </div>
                     <div  class="conteneur-box">
                         <img  class="image-proje" src="">
-                        <h2 class="titre-projet"></h2>
-                        <p  class="description projet"></p>
+                        <h2 class="centrer-du-texte"></h2>
+                        <p  class="description-projet"></p>
                         <ul class="technologie-utilise">
 
                         </ul>
-                        <button class="bouton"> <a href="">voir le projet</a> </button>
-                    </div>
-                    <div  class="conteneur-box">
-                        <img  class="image-proje" src="">
-                        <h2 class="titre-projet"></h2>
-                        <p  class="description projet"></p>
-                        <ul class="technologie-utilise">
-
-                        </ul>
-                        <button class="bouton"> <a href="">voir le projet</a> </button>
-                    </div>
-                    <div  class="conteneur-box">
-                        <img  class="image-proje" src="">
-                        <h2 class="titre-projet"></h2>
-                        <p  class="description projet"></p>
-                        <ul class="technologie-utilise">
-
-                        </ul>
-                        <button class="bouton"> <a href="">voir le projet</a> </button>
-                    </div>
-                    <div  class="conteneur-box">
-                        <img  class="image-proje" src="">
-                        <h2 class="titre-projet"></h2>
-                        <p  class="description projet"></p>
-                        <ul class="technologie-utilise">
-
-                        </ul>
-                        <button class="bouton"> <a href="">voir le projet</a> </button>
-                    </div>
-                    <div  class="conteneur-box">
-                        <img  class="image-proje" src="">
-                        <h2 class="titre-projet"></h2>
-                        <p  class="description projet"></p>
-                        <ul class="technologie-utilise">
-
-                        </ul>
-                        <button class="bouton"> <a href="">voir le projet</a> </button>
+                        <button class="boutons"> <span><a href="">voir le projets</a></span></button>
                     </div>
                 </div>
         </section>
