@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px) {
+   #logo {
+        height: 66px;
+        width: 90px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0%;
+        object-fit: cover;
+    }
+    #les-projets {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    #navigation {
+        display: flex;
+    flex-direction: column;
+    }
+    #parcours {
+        width: 100%;
+        background: white;
+        display: flex;
+        flex-direction: column;
+    }
+    #description-parcours {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #image-description-parcours {
+        margin: 0 auto;
+    }
+    #texte-description-parcours {
+        width: 100%;
+        padding: 0px;
+        margin: 0 auto;
+    }
+    .espacement-bloc {
+        display: flex;
+        flex-direction: column;
+    }
+    .conteneur {
+       
+        width: 100%;
+        height: 100%;
+    }
+}

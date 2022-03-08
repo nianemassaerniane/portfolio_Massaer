@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/e1e907064b.js" crossorigin="anonymous"></script>
     <title> mon first site</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-phone.css" />
 </head>
 
 <body>
@@ -383,8 +384,42 @@
                     </div>
                 </div>
         </section>
+        
+        <section id="contact">
+            <h2 class="centrer-du-texte">Me Contacter</h2>
+        <p class="centrer-du-texte"> Une question, mon profil vous intéresse ?<br>
+            Écrivez-moi et je vous répondrai aussi rapidement que possible !</p>
+                <div id="conteneur-formulaire">
+                    <form method="post" class="formulaire">
+                            <div class="formulaire-question">
+                              <label class="titre-formulaire" for="firstName">Prénom: </label>
+                              <input type="text" name="firstName" id="firstNamne"
+                              placeholder="Entrer votre prenom" required>
+                              <p id="firstNameErrorMsg"><!-- ci est un message d'erreur --></p>
+                            </div>
+                            <div class="formulaire-question">
+                                <label class="titre-formulaire" for="firstName">objet: </label>
+                                <input  type="text" name="firstName" id="firstName" placeholder="Entrer l'objet de votre message" required>
+                                <p id="firstNameErrorMsg"><!-- ci est un message d'erreur --></p>
+                              </div>
 
-        <section id="contact"></section>
+                            <div class="formulaire-question">
+                                <label class="titre-formulaire" for="email">Email: </label>
+                                <input type="email" name="email" id="email" placeholder="Entrer votre Email" required>
+                                <p id="emailErrorMsg"></p>
+                              </div>
+                              <div class="formulaire-question">
+                                <label class="titre-formulaire" for="firstName">message: </label>
+                                <textarea type="text" name="firstName" id="firstName" placeholder="Entrer votre Message" required></textarea>
+                                <p id="firstNameErrorMsg"><!-- ci est un message d'erreur --></p>
+                              </div>
+                              <div class="bouton">
+                                <button type="submit" title="envoyer le mail" class="boutons"> <span><a href="">envoyer</a></span></button>
+                            
+                              </div>
+                    </form>
+                </div>
+        </section>
     </main>
 </body>
 

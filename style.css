@@ -121,11 +121,26 @@
       padding: 17px 35px;
       font-size: 1.2;
       margin: 1em auto;
+      position: relative;
+      overflow: hidden;
+      width: 160px;
+      height: 55px;
   }
   .boutons a {
     text-decoration: none;
     color: white;
   }
+  .boutons ::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 427%;
+    width: 140%;
+    background: #cae8ff;
+    transition: all .5s ease-in-out;
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
   #parcours{
     width: 100%;
     background: white;
@@ -227,21 +242,7 @@ text-decoration: none;}
   padding: 1.6em;
 
 }
-.bouton{
-  color: #fcfcff;
-    background-color:#172064;
-    border: none;
-    display: block;
-    text-align: center;
-    cursor: pointer;
-    box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
-    font-weight: 700;
-    padding: 7px 25px;
-    font-size: 1.2;
-    margin: 1em auto;
-    width: 160px;
-    height: 40px;
-}
+
 #les-projets{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -274,4 +275,35 @@ object-fit: cover;
 }
 .description-projet{
   text-align: center;
+}
+#conteneur-formulaire {
+	display: flex;
+	justify-content: center;
+  border:2px solid #172064;
+  width: 50%;
+  margin: 0 auto;
+
+}
+.formulaire {
+  margin-top: 30px;
+	width: 90%;
+}
+.formulaire-question {
+	display: flex;
+	flex-direction: column;
+}
+.formulaire-question textarea{
+  height: 92px;
+}
+.formulaire-question input {	
+	height: 40px;
+	margin-top: 4px;
+}
+.formulaire-question input:focus {
+outline: none;
+}
+
+.titre-formulaire{
+  color: #172064;
+  font-size: 20px;
 }
