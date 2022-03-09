@@ -77,6 +77,11 @@
     color: #3e3e80;
     font-weight: bold;
   }
+  #icon-menu{
+    visibility: hidden;
+    width: 32px;
+    height: 32px;
+  }
  
   #parallax{
     height: 92vh;

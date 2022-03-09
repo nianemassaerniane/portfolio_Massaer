@@ -24,8 +24,14 @@
         width: 100%;
     }
     #navigation {
-        display: flex;
+        display: none;
     flex-direction: column;
+    }
+    #icon-menu{
+      visibility: visible;
+      right: 55px;
+      width: 32px;
+      height: 32px;
     }
     #bienvenue{
       width: 100%;
@@ -108,4 +114,32 @@
       #contact{
         width: 100%;
       }
+
+      #icon-menu:hover{
+        visibility: visible;
+       
+      
+    }
+    nav ul , nav:active ul {
+        display:none;
+        position: absolute;
+        padding: 20px;
+        background: white;
+        right: 10px;
+        top: 35px;
+        width: 35%;
+       
+    }
+    nav:hover ul {
+        display: block;
+    }
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 15px 0;
+        margin: 0;
+    }
+li:hover{
+        color:rgb(190, 151, 20) ;
+}
 }
