@@ -39,10 +39,54 @@
     .espacement-bloc {
         display: flex;
         flex-direction: column;
+        margin-top: 15px;
+        width: 100%;
     }
     .conteneur {
        
         width: 100%;
         height: 100%;
     }
+    .bloc-vide{
+        width: 100%;
+        height: inherit;
+      padding: 0px;
+      }
+      .bloc-vide1 {
+        width: 100%;
+        height: inherit;
+      padding: 0px;
+      }
+      .bloc-vide2 {
+        width: 100%;
+        height: inherit;
+      padding: 0px;
+      }
+      .ligne-verticale{
+        border-right: none;
+        width: 0%;
+        padding: 0;
+      }
+      .ligne-verticale1{
+        border-right: none;
+        width: 0%;
+        padding: 0;
+      }
+      .ligne-verticale2{
+        border-right: none;
+        width: 0%;
+        padding: 0;
+      }
+      #conteneur-formulaire {
+        width: 100%;
+    }
+    #projets{
+        width: 100%;
+    }
+    .conteneur-box{
+        margin-left: 0px;
+        margin-bottom: 92px;
+        padding: 1.5em;
+        width: 100%;
+      }
 }
