@@ -310,3 +310,12 @@ outline: none;
   color: #172064;
   font-size: 20px;
 }
+
+#conteneur-footer{
+  border: 1px solid #172064;
+}
+#pied-page{
+  display:  flex;
+  align-items: center;
+  justify-content: space-between;
+}
