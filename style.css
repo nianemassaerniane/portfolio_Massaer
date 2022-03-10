@@ -319,3 +319,26 @@ outline: none;
   align-items: center;
   justify-content: space-between;
 }
+#link-cv{
+border:1px solid #172064;
+}
+#copy-right{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.btn{
+  width: 7%;
+  height: 7%;
+  background: #cae8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+.icone{
+  width: 50px;
+}
