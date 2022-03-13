@@ -1,3 +1,7 @@
+body{
+font-family: fredoka sans-serif;
+background-color: #343333;
+}
 #header {
     display: flex;
     justify-content: space-between;
@@ -24,18 +28,18 @@
 #logo 
 {
     padding: 0 32px;
-    height: 66px;
+    height: 65px;
     width: 120px;
     object-fit: cover;
 }
   
 #menu-navigation{
-    width: 60%;
+    width: 90%;
 }
 
 #navigation {
     display: flex;
-    margin-top: 2em;
+    margin-top: -1em;
     display: -webkit-box;
     display: -ms-flexbox;
     -webkit-box-pack: justify;
@@ -50,9 +54,8 @@
     margin: auto 5em 0em auto;
 }
 #logo-portfolio{
-    margin: 0.4em 0em 0.4em 1.5em;
     height: 65px;
-    width: 200px;
+    width: 10%;
 }
 #logo-portfolio:hover {
     -webkit-transform: scale(1.1);
@@ -63,7 +66,7 @@
     margin: auto 0.5em auto 0.5em;
   }
   #navigation a{
-    color: #172064;
+    color: #E65063;
     text-decoration: none;
     font-size: 1em;
   }
@@ -106,15 +109,25 @@
   .style-description-bienvenue{
     text-align: center;
   }
+  .style-description-bienvenue strong {
+    color: #E65063;
+  }
+  .style-description-bienvenue a{
+    text-decoration: none;
+    color: #E65063;
+  }
   .centrer-du-texte{
       text-align: center;
   }
+  h2{
+    color: #E65063;
+}
   #description-bienvenue-contact{
       display: flex;
       justify-content: center;
   }
   .boutons{
-      background-color: #172064;
+      background-color: #E65063;
       border: none;
       display: block;
       text-align: center;
@@ -140,13 +153,18 @@
     top: 0;
     height: 427%;
     width: 140%;
-    background: #cae8ff;
+    background: #343333;
     transition: all .5s ease-in-out;
     transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
   #parcours{
     width: 100%;
     background: white;
+  }
+  #parcours-dev{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
   }
   #titre-parcours{
       text-align: center;
@@ -173,7 +191,6 @@
 
 #texte-description-parcours
 {
-  font-family: 'ambleregular', sans-serif;
   background-color: #ffffff;
   color: #172064;
   width: 675px;
@@ -182,13 +199,13 @@
   padding-top: 5px;
 }
 .conteneur{
-    box-shadow: 0 0 10px #bababa;
-     border: 2px solid #172064 ; 
+    box-shadow: 0 0 10px #E65063;
     background-color: #fcfcfc;
-    margin-left: 0;
+    margin:15px auto;
     padding: 1.5em;
-    width: 35%;
-    height: 480px;
+    width: 85%;
+    column-gap: 12px;
+    height: 546px;
 }
 #mon-cv a{
 text-decoration: none;}
@@ -215,37 +232,6 @@ text-decoration: none;}
   display: flex;
   justify-content: space-between;
 }
-.ligne-verticale{
-  border-right: 2px solid #172064;
-  width: 1%;
-  padding: 1.6em;
-
-}
-.bloc-vide{
-  width: 50%;
-  height: 550PX;
-  padding: 1.6em;
-
-}
-.bloc-vide1{
-  width: 20.6%;
-  height: 550PX;
-  padding: 1.6em;
-
-}
-.ligne-verticale2{
-  border-right: 2px solid #172064;
-  width: 1%;
-  padding: 1.6em;
-
-}
-.bloc-vide2{
-  width: 49.55%;
-  height: 550PX;
-  padding: 1.6em;
-
-}
-
 #les-projets{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -253,12 +239,10 @@ text-decoration: none;}
 }
 .conteneur-box{
   box-shadow: 0 0 10px #cae8ff;
-   border: 2px solid #172064 ; 
+   border: 2px solid #E65063 ; 
   background-color: #fcfcfc;
-  margin-left: 62px;
   margin-bottom: 92px;
   padding: 1.5em;
-  width: 450px;
   height: 530px;
 }
 .image-proje{
@@ -282,7 +266,7 @@ object-fit: cover;
 #conteneur-formulaire {
 	display: flex;
 	justify-content: center;
-  border:2px solid #172064;
+  background: #fcfcfc;
   width: 50%;
   margin: 0 auto;
 
@@ -312,7 +296,8 @@ outline: none;
 }
 
 #conteneur-footer{
-  border: 1px solid #172064;
+  background: #fcfcfc;
+  margin-top: 25px;
 }
 #pied-page{
   display:  flex;
