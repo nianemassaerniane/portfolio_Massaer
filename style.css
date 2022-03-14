@@ -2,6 +2,9 @@ body{
 font-family: fredoka sans-serif;
 background-color: #343333;
 }
+html{
+  scroll-behavior: smooth;
+}
 #header {
     display: flex;
     justify-content: space-between;

@@ -1,3 +1,5 @@
+//const { default: TypewriterComponent } = require("typewriter-effect");
+
 const btn = document.querySelector('.btn');
 
 document.querySelector('.btn').addEventListener('click', function(){
@@ -21,3 +23,21 @@ if (window.innerWidth > 1000) {
         photo.style.transform = `translate3D(${-x/35}px, 0, 0)`;
     });
 }
+
+const animationText = document.querySelector("#description-bienvenue");
+
+new Typewriter(animationText ,{
+//deleteSpeed : 30
+})
+.changeDelay(30)
+.typeString('<h2 class="centrer-du-texte">bienvenue</h2>')
+.pauseFor(300)
+.typeString(' <p class="style-description-bienvenue"> je suis Massaer Niane <strong>Développeur web junior</strong></p>')
+.pauseFor(1000)
+.typeString('<p class="style-description-bienvenue"><strong>Ma mission</strong> créer un site ou applcation web sur mesure</p>')
+.pauseFor(1000)
+.typeString('<p class="style-description-bienvenue">pour savoir comment, consulter <a href="">mon parcours</a> et <a href="#projets">mes projets</a></p>')
+.pauseFor(1000)
+.typeString(' <div id="description-bienvenue-contact"><button class="boutons"> <span><a href="#contact">Me contacter!</a></span></button></div>' )
+.pauseFor(1000)
+.start()
