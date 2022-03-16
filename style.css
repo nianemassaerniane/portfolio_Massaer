@@ -1,15 +1,22 @@
 body{
-font-family: fredoka sans-serif;
-background-color: #343333;
+font-family: 'Montserrat', sans-serif;
+/*background-color: #343333;*/
+background-color: black;
+padding: 0;
+margin: 0;
 }
 html{
   scroll-behavior: smooth;
 }
+a{
+  text-decoration: none;
+  color: #E65063;
+}
 #header {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #3e3e80;
-    background-color: #fcfcfc;
+    border-bottom: 1px solid #E65063;
+    background-color: black;
     height: auto;
   position: -webkit-sticky;
   position: sticky;
@@ -89,7 +96,7 @@ html{
  
   #parallax{
     height: 92vh;
-    background: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background: url(https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -107,7 +114,8 @@ html{
       height: 300px;
       margin: 0 auto;
       padding-top: 15px;
-      background-color: #fcfcff;
+      background-color: black;
+      color: white;
   }
   .style-description-bienvenue{
     text-align: center;
@@ -121,6 +129,7 @@ html{
   }
   .centrer-du-texte{
       text-align: center;
+      color: white;
   }
   h2{
     color: #E65063;
@@ -162,7 +171,7 @@ html{
 }
   #parcours{
     width: 100%;
-    background: white;
+    background: black;
   }
   #parcours-dev{
     display: grid;
@@ -186,7 +195,7 @@ html{
 }
 
 #image-description-parcours img{
-  border: 3.5px solid #172064;
+  border: 3.5px solid #E65063;
   border-radius: 50%;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -194,16 +203,16 @@ html{
 
 #texte-description-parcours
 {
-  background-color: #ffffff;
-  color: #172064;
+  background-color: #121111;
+  color: white;
   width: 675px;
   padding-right: 30px;
   padding-left: 30px;
   padding-top: 5px;
 }
 .conteneur{
-    box-shadow: 0 0 10px #E65063;
-    background-color: #fcfcfc;
+    background-color: #121111;
+    color: white;
     margin:15px auto;
     padding: 1.5em;
     width: 85%;
@@ -212,8 +221,8 @@ html{
 }
 #mon-cv a{
 text-decoration: none;}
-#cv{
-    color:#172064 ;
+.fab{
+  color: #E65063;
 }
 #voir-les-projet{
     color: #fcfcff;
@@ -240,17 +249,18 @@ text-decoration: none;}
   grid-template-columns: 1fr 1fr;
   width: 100%;
 }
-.conteneur-box{
-  box-shadow: 0 0 10px #cae8ff;
-   border: 2px solid #E65063 ; 
-  background-color: #fcfcfc;
+.conteneur-box{ 
+  background-color: #121111;
   margin-bottom: 92px;
   padding: 1.5em;
   height: 530px;
+  margin: 35px auto;
+  width: 61%;
+
 }
 .image-proje{
 width: 100%;
-height: 60%;
+height: 36%;
 object-fit: cover;
 
 }
@@ -265,6 +275,7 @@ object-fit: cover;
 }
 .description-projet{
   text-align: center;
+  color: white;
 }
 #conteneur-formulaire {
 	display: flex;
