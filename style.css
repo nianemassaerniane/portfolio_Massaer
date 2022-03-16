@@ -127,12 +127,14 @@ a{
     text-decoration: none;
     color: #E65063;
   }
-  .centrer-du-texte{
+  .centrer-du-texte {
       text-align: center;
-      color: white;
   }
   h2{
     color: #E65063;
+}
+p{
+  color: white;
 }
   #description-bienvenue-contact{
       display: flex;
@@ -280,7 +282,7 @@ object-fit: cover;
 #conteneur-formulaire {
 	display: flex;
 	justify-content: center;
-  background: #fcfcfc;
+  background: #121111;
   width: 50%;
   margin: 0 auto;
 
@@ -305,12 +307,11 @@ outline: none;
 }
 
 .titre-formulaire{
-  color: #172064;
+  color: #E65063;
   font-size: 20px;
 }
 
 #conteneur-footer{
-  background: #fcfcfc;
   margin-top: 25px;
 }
 #pied-page{
