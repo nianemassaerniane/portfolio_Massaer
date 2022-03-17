@@ -114,4 +114,13 @@
 li:hover{
         color:rgb(190, 151, 20) ;
 }
+.portfolio{
+  display: none;
+}
+#portfolio-media img{
+  visibility: visible;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 }

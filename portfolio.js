@@ -41,3 +41,20 @@ new Typewriter(animationText ,{
 .typeString(' <div id="description-bienvenue-contact"><button class="boutons"> <span><a href="#contact">Me contacter!</a></span></button></div>' )
 .pauseFor(1000)
 .start()
+const images = document.querySelectorAll(".image");
+
+images.forEach((img) => {
+  img.addEventListener("mouseover", (e) => {
+    images.forEach((img) => {
+      img.classList.remove("active");
+    });
+    img.classList.add("active");
+  });
+});
+
+$(".image").click(function () {
+  $(".image").removeClass("active");
+  $(this).addClass("active");
+});
+
+
